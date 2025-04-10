@@ -11,7 +11,7 @@ Vous savez très certainement qu'en peinture et en art, les couleurs ne sont
 qu'un « assemblage » de quantités de couleurs primaires que sont le bleu, le  
 magenta et le jaune.
 
-![](../static/colour-hue.png)
+![](./static/colour-hue.png)
 
 Le violet 🟣, par exemple, est un assemblage des couleurs rouge 🔴 et bleu 🔵.
 
@@ -19,7 +19,7 @@ En informatique, c'est exactement la même chose — sauf qu'au lieu d'avoir les
 couleurs primaires bleu, magenta et jaune, nous avons plutôt du rouge, du bleu  
 et du vert !
 
-![](../static/colour-hue-screen.png)
+![](./static/colour-hue-screen.png)
 
 Oui, les couleurs sont flashy — mais c'est cependant nécessaire pour obtenir  
 un spectre très varié de couleurs ! 🌈

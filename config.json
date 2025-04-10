@@ -1,0 +1,58 @@
+{
+    "subjectname": "SnakeJs",
+    "parts": [
+        {
+            "subparts": [
+                {
+                    "path": "Part01-Introduction/prise_en_main_editeur-exercice.md"
+                },
+                {
+                    "path": "Part01-Introduction/fonctionnement_ecran-exercice.md"
+                },
+                {
+                    "path": "Part01-Introduction/prise_en_main_librairie-exercice.md",
+                    "showHint": false,
+                    "hintPath": "Part01-Introduction/prise_en_main_librairie-hint.md",
+                    "showSolution": false,
+                    "solutionPath": "Part01-Introduction/prise_en_main_librairie-solution.md"
+                }
+            ]
+        },
+        {
+            "subparts": [
+                {
+                    "path": "Part02-Snake/dessin_snake-exercice.md",
+                    "showHint": false,
+                    "hintPath": "Part02-Snake/dessin_snake-hint.md",
+                    "showSolution": false,
+                    "solutionPath": "Part02-Snake/dessin_snake-solution.md"
+                },
+                {
+                    "path": "Part02-Snake/deplacer_snake-exercice.md",
+                    "showHint": false,
+                    "hintPath": "Part02-Snake/deplacer_snake-hint.md",
+                    "showSolution": false,
+                    "solutionPath": "Part02-Snake/deplacer_snake-solution.md"
+                }
+            ]
+        },
+        {
+            "subparts": [
+                {
+                    "path": "Part03-Pomme/dessin_pommes-exercice.md",
+                    "showHint": false,
+                    "hintPath": "Part03-Pomme/dessin_pommes-hint.md",
+                    "showSolution": false,
+                    "solutionPath": "Part03-Pomme/dessin_pommes-solution.md"
+                },
+                {
+                    "path": "Part03-Pomme/interactions-exercice.md",
+                    "showHint": false,
+                    "hintPath": "Part03-Pomme/interactions-hint.md",
+                    "showSolution": false,
+                    "solutionPath": "Part03-Pomme/interactions-solution.md"
+                }
+            ]
+        }
+    ]
+}

@@ -20,7 +20,7 @@ Pour savoir **où** dessiner quoi que ce soit, la plupart des programmes et bibl
 
 Voici un exemple pour que vous compreniez le principe :
 
-![](../static/coordinate-system.png)
+![](./static/coordinate-system.png)
 
 - Tout point est exprimé sous la forme $(x, y)$.  
 - La coordonnée d'origine $(0, 0)$ correspond au point le plus haut et le plus à gauche de l'écran.  

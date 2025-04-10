@@ -53,7 +53,7 @@ Comme vous pouvez l'observer, on utilise une fonction comme corps du code qui va
 
 Maintenant que nous savons où nous allons travailler, c'est encore une fois une question de comparaisons avec `snake_direction` et de petits calculs avec la tête actuelle du serpent, mais voici un petit schéma pour vous aider : 
 
-![](../static/snake-next-movement-help.png)
+![](./static/snake-next-movement-help.png)
 
 - Le `[0]` correspond au premier élément de la liste de `snake_set`, soit la tête du serpent
 - Les `x - 1`, `x + 1`, `y - 1` et `y + 1` réfèrent aux coordonnées **relatives** aux coordonnées du serpent. Par exemple, `x - 1` signifie réellement `[snake_set[0][0] - 1, snake_set[0][1]]`

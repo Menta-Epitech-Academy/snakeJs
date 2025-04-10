@@ -1,6 +1,6 @@
 # Prise en main de l'éditeur
 
-![éditeur p5js](../static/p5js-editor.png)
+![éditeur p5js](./static/p5js-editor.png)
 
 L'éditeur est composé de quatre grandes parties :
 

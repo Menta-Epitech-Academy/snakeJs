@@ -4,7 +4,7 @@
 
 Dans le jeu du Snake, un serpent est simplement composé de plusieurs « blocs », comme on peut le voir ci-dessous :
 
-![](../static/snake-structure.png)
+![](./static/snake-structure.png)
 
 
 Notre jeu doit donc déjà savoir où sont ces blocs : il nous faudra donc une liste pour stocker ces différentes positions 🗒️
