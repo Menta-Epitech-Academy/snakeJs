@@ -1,6 +1,4 @@
-## Exercices 04 : Capturons les touches pour le déplacement
-
-> [!HINT] 
+@section "ex04hint"
 
 Si vous ne savez pas à quoi peut ressembler des conditions, voici un exemple ci-dessous :
 
@@ -16,9 +14,7 @@ if (lives > 0) { // if correspond à si la condition est vraie
 }
 ```
 
-## Exercices 05 : Déterminons où le serpent doit se déplacer
-
-> [!HINT]
+@section "ex05hint"
 
 Voici la première condition, à vous de faire les autres :
 
@@ -29,8 +25,6 @@ if (snake_direction == "up") {
 }
 ```
 
-## Exercices 07 : Empêcher le serpent de se déplacer sur lui-même
-
-> [!HINT]
+@section "ex07hint"
 
 On devrait être capable d'aller à droite seulement si la flèche de droite est pressée et que notre serpent ne se déplace pas actuellement à gauche, non ?

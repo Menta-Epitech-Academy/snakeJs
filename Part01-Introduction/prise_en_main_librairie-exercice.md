@@ -34,9 +34,15 @@ Regardez [la référence de p5js](https://p5js.org/reference/) pour trouver une 
 
 Rappelez-vous que le corps de la fonction `draw` sert à placer les instructions nécessaires au dessin.
 
+@include "./Part01-Introduction/prise_en_main_librairie-hint.md" section="hint01" type="tip"
+@include "./Part01-Introduction/prise_en_main_librairie-solution.md" section="solution01" type="solution"
+
 ## Exercices 02 : Modifions ce rectangle !
 
 Maintenant que vous avez un rectangle affiché, essayez de :  
 
 - Le remplir de la couleur verte  
 - Lui mettre des bordures de couleur bleue
+
+@include "./Part01-Introduction/prise_en_main_librairie-hint.md" section="hint02" type="tip"
+@include "./Part01-Introduction/prise_en_main_librairie-solution.md" section="solution02" type="solution"

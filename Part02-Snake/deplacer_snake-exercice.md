@@ -36,6 +36,9 @@ Votre objectif dans cet exercice est de compléter la fonction `keyPressed()` po
 
 Vous pouvez ensuite tester si votre code fonctionne en écrivant juste en dessous `console.log(snake_direction)` dans le corps de la fonction. Si, dans la console, une ligne s'affiche à chaque fois que vous appuyez sur les touches de direction **et** que la touche correspond à ce qui est affiché dans la console, vous avez réussi !
 
+@include "./Part02-Snake/deplacer_snake-hint.md" section="ex04hint" type="tip"
+@include "./Part02-Snake/deplacer_snake-solution.md" section="ex04solve" type="solution"
+
 ## Exercices 05 : Déterminons où le serpent doit se déplacer 
 
 La prochaine étape consiste à faire bouger, selon la direction à laquelle le joueur souhaite se déplacer, la tête du serpent.
@@ -60,6 +63,9 @@ Maintenant que nous savons où nous allons travailler, c'est encore une fois une
 
 Avec ce que nous venons de voir, votre objectif va être de réaliser une condition qui, en fonction de la direction stockée dans `snake_direction`, va calculer la prochaine position de la tête du serpent et la stocker dans une variable `next_direction`.
 
+@include "./Part02-Snake/deplacer_snake-hint.md" section="ex05hint" type="tip"
+@include "./Part02-Snake/deplacer_snake-solution.md" section="ex05solve" type="solution"
+
 ## Exercices 06 : Faire déplacer le serpent
 
 Maintenant, nous savons où doit se déplacer le serpent à la prochaine intervalle ! Il ne nous reste plus qu'à le faire se déplacer. Pour ce faire, il va falloir d'abord enlever le dernier élément de la liste `snake_set`, puis ajouter le nouvel élément au début (c'est-à-dire à l'index `0`) la position de la nouvelle tête.
@@ -73,6 +79,8 @@ Votre objectif est de réaliser ce qui a été décrit ci-dessus sur la liste `s
 
 Une fois cela effectué, vous devriez voir votre serpent s'allonger. Pas de panique, il vous suffit de rajouter `clear(255)` au début du corps de la fonction `draw` pour régler ce problème !
 
+@include "./Part02-Snake/deplacer_snake-solution.md" section="ex06solve" type="solution"
+
 ## Exercices 07 : Empêcher le serpent de se déplacer sur lui-même
 
 Vous l'aurez peut-être remarqué, mais le serpent peut passer sur lui-même lorsque l'on lui donne une direction opposée à celle à laquelle il avance !
@@ -84,3 +92,6 @@ Encore une fois, ce n'est qu'une histoire de conditions ! Il suffirait juste de 
 Il existe en JavaScript un opérateur `&&` qui permet de vérifier plusieurs conditions dans un seul `if`.
 
 Votre objectif est de modifier les conditions d'acquisition des touches pour empêcher le serpent de faire un demi-tour complet en une fois.
+
+@include "./Part02-Snake/deplacer_snake-hint.md" section="ex07hint" type="tip"
+@include "./Part02-Snake/deplacer_snake-solution.md" section="ex07solve" type="solution"

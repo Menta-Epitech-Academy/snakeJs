@@ -1,0 +1,25 @@
+name: Generate PDF from Markdown
+
+on:
+  push:
+    paths:
+      - "**.md"
+      - "**.json"
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - "**.md"
+      - "**.yml"
+      - "**.yaml"
+  workflow_dispatch:
+
+jobs:
+  convert_via_pandoc:
+    runs-on: self-hosted
+    steps:
+      - name: Convert markdown to PDF and HTML
+        uses: Menta-Epitech-Academy/mdConverter-action@v1
+        with:
+          ghcr_token: ${{ secrets.EDEX_PACKAGE_READ }} 

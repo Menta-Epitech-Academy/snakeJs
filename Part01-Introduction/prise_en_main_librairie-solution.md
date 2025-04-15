@@ -1,6 +1,4 @@
-## Exercices 01 : Dessinons un rectangle !
-
-> [!SOLUTION] 
+@section "solution01"
 
 ```js
 function draw() {
@@ -8,9 +6,7 @@ function draw() {
 }
 ```
 
-## Exercices 02 : Modifions ce rectangle !
-
-> [!SOLUTION]
+@section "solution02"
 
 ```js
 function draw() {
