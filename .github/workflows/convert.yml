@@ -17,7 +17,7 @@ on:
 
 jobs:
   convert_via_pandoc:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Convert markdown to PDF and HTML
         uses: Menta-Epitech-Academy/mdConverter-action@v1
