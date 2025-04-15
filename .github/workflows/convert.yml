@@ -22,6 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Convert markdown to PDF and HTML
-        uses: Menta-Epitech-Academy/docker-md-converter@v1
+        uses: docker://ghcr.io/Menta-Epitech-Academy/docker-md-converter:v1
         with:
-          ghcr_token: ${{ secrets.EDEX_PACKAGE_READ }} 
+          ghcr_token: ${{ secrets.GITHUB_TOKEN }}
