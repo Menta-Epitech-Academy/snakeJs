@@ -36,3 +36,11 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}:/ARTIFACTS \
             ghcr.io/menta-epitech-academy/mdconverter:main 
+
+      - name: Upload the pdf 
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: /ARTIFACTS/*.pdf
+          asset_name: output.pdf
+          asset_content_type: application/pdf
