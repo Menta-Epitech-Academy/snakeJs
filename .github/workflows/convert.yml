@@ -37,10 +37,8 @@ jobs:
             -v ${{ github.workspace }}:/ARTIFACTS \
             ghcr.io/menta-epitech-academy/mdconverter:main 
 
-      - name: Upload the pdf 
-        uses: actions/upload-release-asset@v1
+      - name: Upload the PDF as an artifact
+        uses: actions/upload-artifact@v4
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: /ARTIFACTS/*.pdf
-          asset_name: output.pdf
-          asset_content_type: application/pdf
+          name: markdown-converted
+          path: /ARTIFACTS/*.pdf
