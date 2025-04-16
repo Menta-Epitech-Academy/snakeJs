@@ -44,10 +44,8 @@ jobs:
           echo "PDF found at: $pdf_path"
           echo "pdf_path=$pdf_path" >> $GITHUB_OUTPUT
 
-      - name: Upload the PDF to the release
-        uses: actions/upload-release-asset@v1
+      - name: Upload the PDF as an artifact
+        uses: actions/upload-artifact@v4
         with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ${{ steps.find_pdf.outputs.pdf_path }}
-          asset_name: output.pdf
-          asset_content_type: application/pdf
+          name: markdown-converted
+          path: ${{ steps.find_pdf.outputs.pdf_path }}
