@@ -19,9 +19,7 @@ on:
 
 jobs:
   convert_via_pandoc:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Convert markdown to PDF and HTML
-        using: docker
-        image: docker://ghcr.io/menta-epitech-academy/docker-md-converter:main
+  runs:
+    using: docker
+    image: docker://ghcr.io/menta-epitech-academy/docker-md-converter:main
 
