@@ -23,5 +23,3 @@ jobs:
     steps:
       - name: Convert markdown to PDF and HTML
         uses: docker://ghcr.io/menta-epitech-academy/docker-md-converter:v1
-        with:
-          ghcr_token: ${{ secrets.GITHUB_TOKEN }}
