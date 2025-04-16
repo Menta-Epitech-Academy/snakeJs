@@ -35,4 +35,4 @@ jobs:
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/data \
-            ghcr.io/menta-epitech-academy/md-converter:main 
+            ghcr.io/menta-epitech-academy/mdconverter:main 
