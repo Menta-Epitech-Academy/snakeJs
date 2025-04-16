@@ -35,8 +35,7 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}:/ARTIFACTS \
             ghcr.io/menta-epitech-academy/mdconverter:main \
-            -t CC \ 
-            -o ./output
+            -t CC -o ./output
 
       - name: Upload the output as an artifact
         uses: actions/upload-artifact@v4
