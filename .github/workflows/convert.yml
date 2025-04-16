@@ -22,4 +22,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Convert markdown to PDF and HTML
-      - uses: menta-epitech-academy/md-converter@v1
+        uses: menta-epitech-academy/md-converter@v1
