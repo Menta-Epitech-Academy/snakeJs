@@ -16,6 +16,7 @@ Voici une ébauche d'instructions logiques :
 ::: {.hint path=./Part03-Pomme/interactions-hint.md section=ex11hint}
 :::
 ::: {.solution path=./Part03-Pomme/interactions-solution.md section=ex11solve}
+:::
 
 ## Exercice 12 : Agrandissons le serpent
 
