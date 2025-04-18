@@ -42,8 +42,7 @@ Ensuite, il nous suffit de vérifier si la tête du serpent (c'est-à-dire ses c
 
 Avec l'explication ci-dessus et ce que nous avons vu jusqu'à présent, faites en sorte d'arrêter le jeu si la tête du serpent est à la position de l'un des éléments de son corps.
 
-::: {.hint path=./Part03-Pomme/interactions-hint.md section=ex13hint}
-:::
+
 ::: {.solution path=./Part03-Pomme/interactions-solution.md section=ex13solve}
 :::
 

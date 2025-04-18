@@ -83,7 +83,7 @@ Votre objectif est de réaliser ce qui a été décrit ci-dessus sur la liste `s
 
 Une fois cela effectué, vous devriez voir votre serpent s'allonger. Pas de panique, il vous suffit de rajouter `clear(255)` au début du corps de la fonction `draw` pour régler ce problème !
 
-::: {.solution path=./Part02-Snake/deplacer_snake-hint.md section=ex06hint}
+::: {.solution path=./Part02-Snake/deplacer_snake-solution.md section=ex06solve}
 :::
 
 ## Exercices 07 : Empêcher le serpent de se déplacer sur lui-même
