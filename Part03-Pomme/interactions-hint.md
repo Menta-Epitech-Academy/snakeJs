@@ -1,6 +1,4 @@
-## Exercice 11 : Mangeons les pommes sur la carte
-
-[!HINT]
+::: {.section-ex11hint}
 
 Voici un exemple de condition pour une pomme de notre tableau. À vous de le faire pour toutes celles qui sont présentes.
 
@@ -15,9 +13,9 @@ if (apple[0] == snake_set[0][0] && apple[1] == snake_set[0][1]) {
   // Ici sera placé le code qui permettra de rallonger le serpent
 }
 ```
+:::
 
-## Exercice 12 : Agrandissons le serpent
-
-> [!HINT]
+::: {.section-ex12hint}
 
 Regarde la ligne `snake_set.pop()`. Pour l'instant, nous ne récupérons pas ce que l'on enlève du tableau. Il faudrait le stocker dans une variable pour l'utiliser si besoin.
+:::

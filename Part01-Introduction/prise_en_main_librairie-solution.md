@@ -1,12 +1,12 @@
-@section "solution01"
+::: {.section-solution01}
 
 ```js
 function draw() {
   rect(30, 20, 20, 15);
 }
 ```
-
-@section "solution02"
+:::
+::: {.section-solution02}
 
 ```js
 function draw() {
@@ -19,3 +19,4 @@ function draw() {
   rect(30, 20, 20, 15);   // Notre carré
 }
 ```
+:::

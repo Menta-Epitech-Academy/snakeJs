@@ -84,3 +84,5 @@ En vous inspirant de l'exemple plus haut et de ce qui a déjà été fait, essay
 
 Note : N'hésitez surtout pas à changer la couleur des rectangles en consultant [la référence de p5.js](https://p5js.org/reference/), un jeu se doit d'être joli à regarder 
 
+::: {.hint path=./Part02-Snake/dessin_snake-hint.md section=ex3hint}
+:::

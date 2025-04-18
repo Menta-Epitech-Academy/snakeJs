@@ -1,4 +1,5 @@
-@section "ex04hint"
+::: {.section-ex04hint}
+
 
 Si vous ne savez pas à quoi peut ressembler des conditions, voici un exemple ci-dessous :
 
@@ -13,8 +14,9 @@ if (lives > 0) { // if correspond à si la condition est vraie
   ...
 }
 ```
+:::
 
-@section "ex05hint"
+::: {.section-ex05hint}
 
 Voici la première condition, à vous de faire les autres :
 
@@ -24,7 +26,10 @@ if (snake_direction == "up") {
     next_direction = [snake_set[0][0], snake_set[0][1] - 1];
 }
 ```
+:::
 
-@section "ex07hint"
+::: {.section-ex07hint}
 
 On devrait être capable d'aller à droite seulement si la flèche de droite est pressée et que notre serpent ne se déplace pas actuellement à gauche, non ?
+
+:::

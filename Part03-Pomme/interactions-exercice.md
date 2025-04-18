@@ -13,6 +13,10 @@ Voici une ébauche d'instructions logiques :
 
 À vous de transformer cette ébauche logique en un code utilisable dans la fonction `setup()` de votre programme.
 
+::: {.hint path=./Part03-Pomme/interactions-hint.md section=ex11hint}
+:::
+::: {.solution path=./Part03-Pomme/interactions-solution.md section=ex11solve}
+
 ## Exercice 12 : Agrandissons le serpent
 
 Votre prochain objectif est de faire agrandir le serpent quand une pomme est mangée. Voici comment procéder logiquement :
@@ -21,6 +25,11 @@ Votre prochain objectif est de faire agrandir le serpent quand une pomme est man
 - Dans la boucle `forEach` de `apple_set`, si la pomme a été mangée, rajouter `snake_tail` à la liste `snake_set`.
 
 À vous de jouer !
+
+::: {.hint path=./Part03-Pomme/interactions-hint.md section=ex12hint}
+:::
+::: {.solution path=./Part03-Pomme/interactions-solution.md section=ex12solve}
+:::
 
 ## Exercice 13 : Si le serpent se mord lui-même
 
@@ -31,6 +40,11 @@ Tout d'abord, il existe une fonction permettant d'arrêter le script. Cette fonc
 Ensuite, il nous suffit de vérifier si la tête du serpent (c'est-à-dire ses coordonnées) correspond à un élément de `snake_set`. Si c'est le cas, cela signifie que le serpent s'est mordu, et il faut donc arrêter le jeu.
 
 Avec l'explication ci-dessus et ce que nous avons vu jusqu'à présent, faites en sorte d'arrêter le jeu si la tête du serpent est à la position de l'un des éléments de son corps.
+
+::: {.hint path=./Part03-Pomme/interactions-hint.md section=ex13hint}
+:::
+::: {.solution path=./Part03-Pomme/interactions-solution.md section=ex13solve}
+:::
 
 ## Bonus : Aller plus loin
 

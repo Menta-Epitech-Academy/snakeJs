@@ -1,6 +1,4 @@
-## Exercice 11 : Mangeons les pommes sur la carte
-
-[!SOLUTION]
+::: {.section-ex11solve}
 
 ```js
 apple_set.forEach((element) => {
@@ -11,11 +9,8 @@ apple_set.forEach((element) => {
 });
 
 ```
-
-## Exercice 12 : Agrandissons le serpent 
-
-[!SOLUTION]
-
+:::
+::: {.section-ex12solve}
 
 ```js
 snake_tail = snake_set.pop();
@@ -32,10 +27,8 @@ apple_set.forEach((element) => {
 });
 
 ```
-## Exercice 13 : Si le serpent se mord lui meme 
-
-[!SOLUTION]
-
+:::
+::: {.section-ex13solve}
 
 ```js
 snake_set.forEach((snake_part) => {
@@ -44,3 +37,5 @@ snake_set.forEach((snake_part) => {
   }
 })
 ```
+
+:::

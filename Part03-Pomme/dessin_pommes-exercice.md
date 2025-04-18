@@ -4,6 +4,9 @@
 
 Dans le corps de la fonction `setup`, vous devez créer une liste appelée `apple_set` qui va contenir les coordonnées de chaque pomme.
 
+::: {.hint path=./Part03-Pomme/dessin_pommes-hint.md section=ex08hint}
+:::
+
 ## Exercice 09 : Générons les pommes
 
 ### Une histoire de boucles...
@@ -50,8 +53,14 @@ Générer une paire de coordonnées $x$, $y$ ressemble à ça :
 
 Vous avez toutes les clés, avec les informations présentes ci-dessus. Vous devez, dans `setup()`, **pousser** 3 pommes avec des coordonnées aléatoires dans la liste précédemment créée.
 
+::: {.solution path=./Part03-Pomme/dessin_pommes-solution.md section=ex09solve}
+:::
+
 ## Exercice 10 : Affichons les pommes sur la carte
 
 Votre objectif est d'afficher les pommes sur la carte de manière similaire à ce qui a été fait pour le serpent.
 
 Pensez à changer la couleur des blocs, sinon vous allez confondre le serpent avec les pommes.
+
+::: {.solution path=./Part03-Pomme/dessin_pommes-solution.md section=ex10solve}
+:::

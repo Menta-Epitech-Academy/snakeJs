@@ -1,4 +1,4 @@
-@section "ex04solve"
+::: {.section-ex04solve}
 
 ```js
 function keyPressed() {
@@ -13,8 +13,9 @@ function keyPressed() {
   }
 }
 ```
+:::
 
-@section "ex05solve"
+::: { .section-ex05solve}
 
 Voici comment parvenir à ce résultat :
 
@@ -32,14 +33,15 @@ if (snake_direction == "up") {
 ```
 
 Comme vous pouvez le constater, on calcule la nouvelle position de la tête à partir de celle actuelle en utilisant les composants de la coordonnée `snake_set[0]`.
-
-@section "ex06solve"
+:::
+::: { .section-ex06solve}
 
 ```js
 snake_set.pop();
 snake_set.unShift(next_direction);
 ```
-@section "ex07solve"
+:::
+::: { .section-ex07solve}
 
 ```js
 function keyPressed() {
@@ -54,3 +56,4 @@ function keyPressed() {
   }
 }
 ```
+:::
