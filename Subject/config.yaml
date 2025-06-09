@@ -1,0 +1,29 @@
+subjectName: "SnakeJs"
+parts:
+  - path: "Part01-Introduction/prise_en_main_editeur-exercice.md"
+    hint: false
+    solution: false
+
+  - path: "Part01-Introduction/fonctionnement_ecran-exercice.md"
+    hint: false
+    solution: false
+
+  - path: "Part01-Introduction/prise_en_main_librairie-exercice.md"
+    hint: true
+    solution: true
+
+  - path: "Part02-Snake/dessin_snake-exercice.md"
+    hint: true
+    solution: true
+
+  - path: "Part02-Snake/deplacer_snake-exercice.md"
+    hint: true
+    solution: true
+
+  - path: "Part03-Pomme/dessin_pommes-exercice.md"
+    hint: true
+    solution: true
+
+  - path: "Part03-Pomme/interactions-exercice.md"
+    hint: true
+    solution: true
